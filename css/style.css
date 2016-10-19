@@ -1,19 +1,65 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 body{
-    background-color: lightgray;
+    background-color: #eee;
+    font-family: Open Sans;
 }
 
 .container{
     display: flex;
-    flex-basis: 90%;
+    background-color: #eee;
 }
 
 .box{
     background-color: white;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #ccc;
 }
 
-.box .image{
+.box:hover{
+    box-shadow: none;
+    transition: box-shadow 100ms ease-in-out 100ms;
+}
+
+.image{
     max-width: 300px;
-    max-height: 500px;
+    max-height: 450px;
+    float: left;
+}
+
+.info{
+    float: right;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 20px;
+    color: #343838;
+}
+
+.title{
+    margin: 0px;
+}
+
+.release_date, .genre, .runtime{
+    opacity: 0.5;
+}
+
+.director, .cast{
+    font-weight: bold;
+}
+
+hr{
+    margin: 10px 0px; 
+}
+
+.button{
+    background-color: #005f6b;
+}
+
+.button:hover{
+    background-color: #008c9e;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
 }
