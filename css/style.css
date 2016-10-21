@@ -3,6 +3,30 @@
 body{
     background-color: #eee;
     font-family: Open Sans;
+    margin: 0px;
+}
+
+nav{
+    background-color: black;
+    margin: 0px;
+    height: 60px;
+}
+
+nav img{
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0 5vw;
+    top: 15px;
+}
+
+nav input{
+    display: inline-block;
+    position: relative;
+    margin: 0px 5vw;
+    top: 13px;
+    width: 70vw;
+    height: 30px;
 }
 
 .container{
