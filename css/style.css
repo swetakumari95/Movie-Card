@@ -12,13 +12,8 @@ body{
 
 .box{
     background-color: white;
-    margin: 10px;
+    margin: 10px auto;
     box-shadow: 10px 10px 10px #ccc;
-}
-
-.box:hover{
-    box-shadow: none;
-    transition: box-shadow 100ms ease-in-out 100ms;
 }
 
 .image{
@@ -53,6 +48,9 @@ hr{
 
 .button{
     background-color: #005f6b;
+    display: inline;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
 
 .button:hover{
