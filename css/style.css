@@ -87,3 +87,24 @@ hr{
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 960px){
+    
+    .box{
+        width: 90%;
+    }
+    
+    nav input{
+        width: 80%;
+    }
+    
+    .image{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .info{
+        float: none;
+        text-align: center;
+    }
+}
